@@ -1,3 +1,6 @@
 module.exports = {
-    "extends": "airbnb-base"
+    "extends": "airbnb-base"，
+    rules: {
+        'no-console': ["error", { allow: ["warn", "error", "log"] }]
+    }
 };
