@@ -7,5 +7,16 @@ function person(name, sex, age) {
   return o
 }
 
-var mars = person('Mars', 'male', 26)
-console.log(mars)
+var person1 = person('Mars', 'male', 26)
+console.log(person1)
+
+
+// 2.构造函数模式
+
+function Person(name, sex, age) {
+  this.name = name
+  this.sex = sex
+  this.age = age
+}
+var person2 = new Person('Bob', 'femal', 19)
+console.log(person2)
